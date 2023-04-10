@@ -201,6 +201,12 @@ header a {
   padding: 11px 40px;
   margin-bottom: 250px;
 }
+.footer-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .footwave {
   width: 100%;
 }
@@ -216,7 +222,7 @@ header a {
   color: #ffffff;
   margin-bottom: 16px;
 }
-.foot p {
+.footdesc {
   width: 320px;
   font-weight: 600;
   font-size: 14px;
@@ -300,4 +306,163 @@ header a {
 
 .imhov img:hover {
   color: blue;
+}
+@media screen and (min-width: 1024px) {
+  header img {
+    height: 38px;
+    width: 240px;
+  }
+  header a {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 9px 30px;
+    border-radius: 20px;
+  }
+  .top-infos h1 {
+    font-size: 48px;
+    line-height: 72px;
+    width: 100%;
+  }
+  .top-infos p {
+    font-size: 20px;
+    line-height: 30px;
+    width: 600px;
+  }
+  .top-infos button {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 25px 100px;
+    border-radius: 40px;
+    margin-bottom: 120px;
+  }
+  .illustration img {
+    width: 1000px;
+  }
+  .static {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .reach {
+    margin-bottom: 0;
+    margin-right: 350px;
+  }
+  .stpic {
+    height: 41px;
+    width: 46px;
+  }
+  .num {
+    font-size: 96px;
+    line-height: 144px;
+  }
+  .staticdes {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .desktoptop,
+  .deskbott,
+  .topuserdesk,
+  .bottuserdesk,
+  .wavedesk {
+    display: block;
+    width: 100%;
+    align-items: left;
+  }
+  .topgrow,
+  .bottgrow,
+  .topuser,
+  .bottuser,
+  .footwave {
+    display: none;
+  }
+  .grow-info,
+  .user-infos {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .flowing {
+    display: flex;
+    flex-direction: row;
+  }
+  .textgrow,
+  .flowing-info,
+  .userstxt h1 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .textgrow,
+  .flowing-info,
+  .userstxt p {
+    width: 520px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .growpic,
+  .flowingpic,
+  .usimg {
+    height: 378px;
+    width: 531px;
+  }
+  .growpic,
+  .usimg {
+    margin-left: 121px;
+  }
+  .flowingpic {
+    margin-right: 134px;
+  }
+  .growdesc,
+  .flowingdesc {
+    text-align: left;
+    margin-top: 26px;
+  }
+  .usertxt p {
+    text-align: left;
+    margin-top: 26px;
+  }
+  .readyhead {
+    font-size: 40px;
+    line-height: 60px;
+    width: 100%;
+  }
+  .ready button {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 25px 100px;
+    border-radius: 40px;
+  }
+  .footer-infos {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot {
+    margin-left: 340px;
+    position: relative;
+  }
+  .phone-info,
+  .mltxt {
+    font-size: 16px;
+  }
+  .subright {
+    position: absolute;
+    left: 65%;
+    top: 68%;
+  }
+  .top-infos button:hover {
+    background-color: #ff8ed7;
+  }
+  .ready button:hover {
+    background-color: #ff8ed7;
+  }
+  .sub:hover {
+    background-color: #ff8ed7;
+  }
+
+  .validation-p {
+    font-size: 12px;
+    color: #ff4343;
+    margin-top: 5px;
+  }
 }
